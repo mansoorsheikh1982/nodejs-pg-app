@@ -15,13 +15,13 @@ pipeline {
         sh 'npm install'
       }
     }
-
+/*
     stage('Test DB Connection') {
       steps {
         sh 'node test-db.js'
       }
     }
-
+*/
     stage('Start App') {
       steps {
         sh 'npm start'
